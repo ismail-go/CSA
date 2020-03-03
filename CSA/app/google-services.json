@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160513219254",
+    "firebase_url": "https://loyal-weaver-238615.firebaseio.com",
+    "project_id": "loyal-weaver-238615",
+    "storage_bucket": "loyal-weaver-238615.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160513219254:android:ecb3d044083d0b63",
+        "android_client_info": {
+          "package_name": "com.example.csa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160513219254-0vhiulkb12ctbvj30qao4t61vvgcsjt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1qXHkoXA3xO2vtfjkE-LcbpafCjnLgDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160513219254-0vhiulkb12ctbvj30qao4t61vvgcsjt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

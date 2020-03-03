@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CSA</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="PartsOfDay">
+        <item>Time Part</item>
+        <item>08:30-11:30</item>
+        <item>11:30-14:30</item>
+        <item>14:30-17:30</item>
+        <item>17:30-20:30</item>
+        <item>20:30-23:30</item>
+    </string-array>
+    <string name="title_activity_statistics_of_bowls">StatisticsOfBowls</string>
+</resources>

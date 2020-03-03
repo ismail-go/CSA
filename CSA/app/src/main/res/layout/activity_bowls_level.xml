@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".BowlsLevel">
+
+    <TextView
+        android:id="@+id/txtFeedingPointName"
+        android:layout_width="416dp"
+        android:layout_height="29dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgBowl"
+        android:layout_width="264dp"
+        android:layout_height="249dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFeedingPointName"
+        app:srcCompat="@drawable/bowlimage" />
+
+    <TextView
+        android:id="@+id/txtPercentage"
+        android:layout_width="80dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="%"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBowl"
+        app:layout_constraintEnd_toEndOf="@+id/imgBowl"
+        app:layout_constraintStart_toStartOf="@+id/imgBowl" />
+
+    <Button
+        android:id="@+id/btnWaterLevel"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="showWaterLevel"
+        android:text="water level"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPercentage" />
+
+    <Button
+        android:id="@+id/btnFoodLevel"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="showFoodLevel"
+        android:text="Food level"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWaterLevel" />
+
+    <Button
+        android:id="@+id/btnBowlStatistic"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="showBowlStatistics"
+        android:text="Bowl statistics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFoodLevel" />
+
+    <Button
+        android:id="@+id/btnAboutFeedingPoint"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="aboutFP"
+        android:text="About Feeding Point"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnBowlStatistic"
+        app:layout_constraintTop_toBottomOf="@+id/btnBowlStatistic" />
+
+    <TextView
+        android:id="@+id/txtLevel"
+        android:layout_width="82dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgBowl"
+        app:layout_constraintStart_toStartOf="@+id/imgBowl"
+        app:layout_constraintTop_toTopOf="@+id/imgBowl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
